@@ -1,2 +1,1 @@
-# website
-S2S Ventures website
+# s2s

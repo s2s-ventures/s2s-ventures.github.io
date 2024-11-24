@@ -1,0 +1,213 @@
+/* Container for the team item */
+
+.testimonial-grid {
+    gap: 20px;
+}
+
+.testimonial-box {
+    margin:  0;
+
+}
+
+.team-item {
+    background: transparent;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    /* margin-bottom: 20px;  Spacing between items */
+}
+
+.buttons-testimonial {
+    display: flex;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .buttons-testimonial {
+        display: flex;
+        margin: 2px;
+    }
+    .dummy-item {
+        display: none;
+    }
+}
+
+.dummy-item {
+    display: none;
+}
+
+
+.empty-item {
+    visibility: hidden; /* Hides the empty items, but they still occupy space in the grid */
+}
+
+
+/* Title and icon in the same line */
+.team-member h2 {
+    color: var(--neon-blue);
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;  /* Align title and icon in a row */
+    align-items: center;  /* Vertically center the icon with the title */
+    /* margin-bottom: 5px;  Small margin between title and description */
+}
+
+/* Icon style */
+.team-member h2 a {
+    margin-left: 10px;  /* Space between title and icon */
+}
+
+/* Team caption */
+.team-member .team {
+    font-size: 14px;  /* Font size for the team role */
+    color: #777;  /* Slightly lighter color for the team role */
+    /* margin-bottom: 10px;  Margin between role and description */
+}
+
+/* Location caption */
+.team-member .city {
+    font-size: 12px;  /* Font size for the location */
+    color: #555;  /* Darker color for the location */
+}
+
+/* Styling for the LinkedIn icon */
+.link-icon i {
+    color: var(--neon-pink);  /* LinkedIn blue */
+    font-size: 20px;
+}
+
+/* Hover effect for LinkedIn icon */
+.link-icon i:hover {
+    color: #005582;  /* Darker blue when hovering */
+}
+
+
+/* General styling */
+.nav .toggle-container .nav-pills{
+    /* margin: 20px 20px 40px 20px ; */
+    display: flex;
+    border: 2px solid #ff007f;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 300px;
+    /* background-color: #ffffff; */
+}
+
+#pills-current-tab.nav-link.btn-toggle {
+    border-radius: 30px 0 0 30px;
+    border-color: transparent;
+    background-color: #ffffff;
+}
+#pills-current-tab.nav-link.btn-toggle.active {
+    border-radius: 30px 0 0 30px;
+    border-color: transparent;
+    background-color: #ff007f;
+}
+#pills-advisors-tab.nav-link.btn-toggle {
+    border-radius: 0px 0 0 0px;
+    border-color: transparent;
+    background-color: #ffffff;
+}
+#pills-advisors-tab.nav-link.btn-toggle.active {
+    border-radius: 0px 0 0 0px;
+    border-color: transparent;
+    background-color: #ff007f;
+}
+
+#pills-alumni-tab.nav-link.btn-toggle {
+    border-radius: 0px 30px 30px 0px;
+    border-color: transparent;
+    background-color: #ffffff;
+}
+#pills-alumni-tab.nav-link.btn-toggle.active {
+    border-radius: 0px 30px 30px 0px;
+    border-color: transparent;
+    background-color: #ff007f;
+}
+
+.toggle-container h1 {
+    padding-bottom: 30px;
+}
+
+/* Button styles */
+.btn {
+    flex: 1;
+    padding: 10px 20px;
+    width: fit-content;
+    border: none;
+    outline: none;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Active button */
+.btn-toggle.active {
+    background-color: #ff007f;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+/* Inactive button */
+.btn-toggle .nav-link{
+    background-color: transparent;
+    color: #000000;
+}
+
+/* Hover effect for inactive buttons */
+.btn-toggle:not(.active):hover {
+    color: var(--neon-pink);
+}
+
+
+.team-item[data-category="alumni"] {
+    display: none; /* Hide alumni team items by default */
+  }
+  
+  .team-item[data-category="current"] {
+    display: block; /* Show current team items by default */
+  }
+
+  .team-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* .team-header h1 {
+    margin: 20px 0 40px 0;
+} */
+
+h4 {
+    font-weight: 700;
+    text-align: left;
+}
+
+
+/* .tab-content {
+    position: relative;
+} */
+.tab-content > .tab-pane {
+    display: unset;
+    left: 0;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.tab-content > .tab-pane.active {
+    opacity: 1;
+}
+
+.team-row {
+    margin: 0 10px;
+}
+
+
+.tab-pane {
+    display: none; /* Bootstrap hides inactive tabs */
+}
+
+.tab-pane.active.show {
+    display: block; /* Show only the active tab */
+}
