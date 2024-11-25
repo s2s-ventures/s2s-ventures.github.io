@@ -278,6 +278,7 @@ a.nav-link {
 
 .buttons-hero-box .btn-primary {
     width: 100%;
+    cursor: none;
 }
 
 /* Button styles for light and dark mode */
@@ -332,6 +333,7 @@ a.nav-link {
 .btn-primary:hover {
     transform: scale(1.05);
     background-color: #f6f6f6;
+    cursor: none;
     color: var(--neon-blue);
 }
 
@@ -339,12 +341,14 @@ a.nav-link {
     background-color: transparent;
     border: 2px solid var(--neon-pink);
     color: var(--neon-pink);
+    cursor: none;
 }
 
 .btn-secondary:hover, .btn-secondary-light:hover {
     transform: scale(1.05);
     background-color: var(--neon-pink);
     color: white;
+    cursor: none;
 }
 
 /* Footer styling */
