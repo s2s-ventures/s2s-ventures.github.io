@@ -811,5 +811,6 @@ h1 {
 
     .btn-primary {
         margin: 0 auto; /* Center the button */
+        padding-bottom: 50px;
     }
 }
