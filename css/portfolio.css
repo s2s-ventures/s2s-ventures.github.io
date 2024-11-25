@@ -146,8 +146,8 @@
     }
 
     btn.hero-btn {
-        margin-bottom: 50px;
         cursor:none;
+        padding: 10px 20px;
     } 
 
     .intro-content {
