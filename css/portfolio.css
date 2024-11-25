@@ -63,6 +63,7 @@
         justify-content: center; /* Center-align elements vertically */
         gap: 20px; /* Adjust gap for smaller screens */
         padding: 20px; /* Add some padding for better spacing */
+        padding-top: 0
     }
 }
 
@@ -141,8 +142,13 @@
         flex-direction: column; /* Stack vertically */
         height: auto; /* Allow height to adjust */
         padding: 40px 20px; 
-        gap: 20px; /* Space between elements */
+        gap: 50px; /* Space between elements */
     }
+
+    btn.hero-btn {
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    } 
 
     .intro-content {
         max-width: 100%; /* Full width on small screens */
@@ -733,17 +739,6 @@ h1 {
     padding-bottom: 30px;
 }
 
-/* Intro Section */
-.intro-section {
-    background-color: var(--light-background);
-    /* height: 100vh; */
-    /* padding-top: 100px; */
-    display: flex;
-    flex-direction: row; /* Default side-by-side layout */
-    gap: 40px;
-    align-items: stretch; /* Stretch items to align with the height of the container */
-    justify-content: space-between; /* Align content with space between */
-}
 
 /* Intro Content */
 .intro-content {
@@ -788,15 +783,11 @@ h1 {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .intro-section {
-        flex-direction: column; /* Stack items vertically */
-        height: auto; /* Allow flexible height for stacked layout */
-        padding: 20px; /* Add padding for smaller screens */
-    }
 
     .image-container {
         width: 100%; /* Full width for stacked layout */
-        height: 50vh; /* Adjust height for mobile screens */
+        height: 40vh;
+        /* height: 40vh; Adjust height for mobile screens */
     }
 
     .intro-content {
