@@ -3,7 +3,7 @@ const teamMembers = [
     { name: "Giammarco Bozzelli", city: "Lausanne", role: "Partner & City Lead", linkedin: "https://www.linkedin.com/in/giammarcobozzelli/", category: "" },
     { name: "Simon Schütz", city: "St. Gallen", role: "Partner & City Lead", linkedin: "https://www.linkedin.com/in/simon-sch%C3%BCtz/", category: "" },
     { name: "Maia Migliaro", city: "Lausanne", role: "Partner", linkedin: "https://www.linkedin.com/in/maia-migliaro/", category: "" },
-    { name: "Fabius Wiesmann", city: "Zurich", role: "Partner", linkedin: "https://www.linkedin.com/in/fabiuswiesmann/", category: "" },
+    // { name: "Fabius Wiesmann", city: "Zurich", role: "Partner", linkedin: "https://www.linkedin.com/in/fabiuswiesmann/", category: "" },
     { name: "Nora Zimmerli", city: "Zurich", role: "Partner", linkedin: "https://www.linkedin.com/in/nora-zimmerli/", category: "" },
     { name: "Tom Blackmore-Esslinger", city: "St. Gallen", role: "Partner", linkedin: "https://www.linkedin.com/in/tom-blackmore-esslinger/", category: "" },
     { name: "Felix Hatzold", city: "Lausanne", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/felix-hatzold-a71b2128b/", category: "" },
@@ -93,6 +93,7 @@ const alumni = [
     { name: "Mathilde Reyes", linkedin: "https://www.linkedin.com/in/mathilde-reyes-865213190/" },
     { name: "Maxime Cornut", linkedin: "https://www.linkedin.com/in/maximecornut/" },
     { name: "Quynh Vu", linkedin: null },
+    { name: "Fabius Wiesmann", linkedin: "https://www.linkedin.com/in/fabiuswiesmann/" },
     { name: "Lorenzo Arbolino", linkedin: "https://www.linkedin.com/in/lorenzo-arbolino/" }
   ];
   
