@@ -11,7 +11,7 @@ const teamMembers = [
     { name: "Jan Kott", city: "Zurich", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/janusch2/" },
     { name: "Bruno Cocozza", city: "Zurich", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/brunococozza/" },
     { name: "Damian Herculano", city: "Zurich", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/damian-herculano-a4a4441aa/" },
-    { name: "Ahmed A. Ali", city: "Zurich", role: "Data Engineer", linkedin: "https://www.linkedin.com/in/ahmed-a-295933211/" },
+    { name: "Ahmed Ali", city: "Zurich", role: "Data Engineer", linkedin: "https://www.linkedin.com/in/ahmed-a-295933211/" },
     { name: "Pascal Basler", city: "St.Gallen", role: "Growth Lead", linkedin: "https://www.linkedin.com/in/pascal-basler-475920a3/" },
     { name: "Linne Verhoeven", city: "Lausanne", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/linne-verhoeven-6054b5247/" },
     { name: "Charles Juven", city: "Lausanne", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/charles-juven/" },
