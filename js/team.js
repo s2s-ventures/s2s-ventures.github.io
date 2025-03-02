@@ -22,7 +22,7 @@ const teamMembers = [
     { name: "Rafael Estermann", city: "St.Gallen", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/rafaelestermann/" },
     { name: "Esther Neville Castro", city: "Lausanne", role: "Legal Expert", linkedin: "https://www.linkedin.com/in/esther-neville-castro/" },
     { name: "Felix Asam", city: "Zurich", role: "Portfolio Success Lead", linkedin: "https://www.linkedin.com/in/felix-asam/" },
-    { name: "Stefano Morandini", city: "St.Gallen", role: "Portfolio Analyst", linkedin: "https://www.linkedin.com/in/stefano-morandini-cinema/" },
+    { name: "Stefano Morandini", city: "St.Gallen", role: "Portfolio Analyst", linkedin: "https://www.linkedin.com/in/stefano-morandini-cinema/" }
 ];
 
 // Advisor-specific data
@@ -108,7 +108,7 @@ const alumni = [
     { name: "Felix Hatzold", linkedin: "https://www.linkedin.com/in/felix-hatzold-a71b2128b/"},
     { name: "Alexander Kühling", linkedin: "https://www.linkedin.com/in/alexander-k%C3%BChling-34b529213/"},
     { name: "Mathias Schmid", linkedin: "https://www.linkedin.com/in/mathias-schmid-04a7a5223/"},
-    { name: "Mina Attia", linkedin: "http://www.linkedin.com/in/mina-attia-"},
+    { name: "Mina Attia", linkedin: "http://www.linkedin.com/in/mina-attia-"}
   ];
   
 // Assign categories based on roles
