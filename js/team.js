@@ -20,7 +20,6 @@ const teamMembers = [
     { name: "Linda Freeman", city: "St.Gallen", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/linda-freeman-1303971b4/" },
     { name: "Nikita Filipovs", city: "St.Gallen", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/nikitafilipovs/" },
     { name: "Rafael Estermann", city: "St.Gallen", role: "Investment Analyst", linkedin: "https://www.linkedin.com/in/rafaelestermann/" },
-    { name: "Esther Neville Castro", city: "Lausanne", role: "Legal Expert", linkedin: "https://www.linkedin.com/in/esther-neville-castro/" },
     { name: "Felix Asam", city: "Zurich", role: "Portfolio Success Lead", linkedin: "https://www.linkedin.com/in/felix-asam/" },
     { name: "Stefano Morandini", city: "St.Gallen", role: "Portfolio Analyst", linkedin: "https://www.linkedin.com/in/stefano-morandini-cinema/" }
 ];
