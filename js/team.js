@@ -112,8 +112,8 @@ const alumni = [
   
 // Assign categories based on roles
 teamMembers.forEach(member => {
-    if (member.role.includes("Partner") || member.role.includes("President")) {
-        member.category = "BOARD"; // Partner or President roles
+    if (member.role.includes("Partner") || member.role.includes("Head of Portfolio")) {
+        member.category = "BOARD"; // Partner or Head of Department roles
     } else if (member.role.includes("Investment Analyst")) {
         member.category = "INVESTORS"; // Investment Analyst roles
     } else {
